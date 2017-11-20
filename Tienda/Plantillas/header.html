@@ -1,0 +1,34 @@
+  <script>
+    $(document).ready(function(){
+      $('.dropdown-submenu a.test').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+    </script>
+    <nav class="navbar navbar-inverse " >
+       <!--data-spy="affix" data-offset-top="197">
+<div class="container-fluid">-->
+  <div>
+     <!-- <img src="Plantillas/ucsm_log.PNG" style="width:100%" alt="Image">-->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-apple"></span> Productos</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-info-sign"></span>.</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-calendar"></span>.</a></li> <!-- y Convocatorias-->
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>.</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span>.</a></li> <!--Frecuentes-->
+        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>.</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
