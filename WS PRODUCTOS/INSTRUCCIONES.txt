@@ -1,0 +1,16 @@
+1. Descarga e instala (en la ruta por defecto) mongodb
+2. Anda a la ruta de mongo (C:\Program Files\MongoDB\Server\3.4\bin) y hazle doble clic a mongod.exe
+3. En la misma ruta hazle doble clic a mongo (sin la "d" al final), esta es la consola de mongo.exe
+4. Copia y pega todo el contenido de SCRIPT NOSQL.txt en la consola de mongo
+5. Tienes que hacer un combobox con las siguientes categorias 
+	"C1";"Tarjetas de video"
+	"C2";"Motherboards"
+	"C3";"Procesadores"
+	"C4";"Accesorios"
+6. Ejecuta el WS 
+7. Para jalar todos los datos en el WS, usa el link http://localhost:8081//ctodos 
+8. Para eliminar http://localhost:/celiminar
+9. Para actualizar  http://localhost:/cactualizar
+10. Te incluyo PHPs de prueba 
+
+

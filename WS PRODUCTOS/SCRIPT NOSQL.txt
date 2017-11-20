@@ -1,0 +1,81 @@
+{"CIMGURL":"http://media.ldlc.com/ld/products/00/01/69/25/LD0001692516_1.jpg","CITNAME":"Tarjeta de Video GTX 980ti","CITDESC":"Tarjeta de video poderosa, para correr los ultimos juegos en 4K","CDESCAT": [{"CIDCATE":"C1","CNOMCAT":"Tarjetas de video","CDESCAT":"Articulos para mejorar la calidad de las imagenes de tus juegos, diseños, etc.."}]}
+
+
+db.productos.insert({"CITNAME":"GEFORCE GTX 1070 GAMING X 8G",
+"NPRECIO": 1830.20,
+"CMODELO": "G1070",
+"CMARCA" : "MSI",
+"NSTOCK" : 10,
+"CIDPROV": "0001783",
+"CIMGURL":"https://www.msi.com/asset/resize/image/global/product/product_3_20160630092112_57747408eafaf.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+"CDESCOR": "Enfréntate a los juegos más complejos y espectaculares de la actualidad sin perderte ni un fotograma. La tarjeta gráfica GeForce GTX 1070 te proporciona la increíble velocidad y potencia de NVIDIA Pascal™, la arquitectura más avanzada jamás creada para una GPU. Es la plataforma de gaming definitiva. #GameReady. Las tarjetas gráficas GeForce GTX Serie 10 están basadas en la arquitectura Pascal para ofrecer hasta 3 veces más rendimiento que las tarjetas de la generación anterior, novedosas tecnologias",
+"CDESCAT": [{"CIDCATE":"C1","CNOMCAT":"Tarjetas de video"}]
+});
+
+
+db.productos.insert( {"CITNAME":"MSI GTX 1080 Ti Founders Edition",
+"NPRECIO": 2473.00,
+"CMODELO": "G1080TI",
+"CMARCA" : "MSI",
+"NSTOCK" : 2,
+"CIDPROV": "0001783",
+"CDESCOR": "Real Base Clock: 1480 MHz / Real Boost Clock: 1582 MHz; Memory Detail: 11264 MB GDDR5X. The EVGA GeForce GTX 1080 Ti is the latest addition to the ultimate gaming platform, this card is packed with extreme horsepower, next-gen 11 Gbps GDDR5X memory, and a massive 11 GB frame buffer. What you see is what you get! - No additional software required to achieve listed clock speeds DX12 OSD Support with EVGA Precision XOC 3 Year Warranty & EVGA's 24/7 Technical Support" ,
+"CIMGURL":"https://images-na.ssl-images-amazon.com/images/I/81pl3HAVGtL._SL1500_.jpg",
+"CDESCAT": [{"CIDCATE":"C1","CNOMCAT":"Tarjetas de video"}]
+});
+
+
+db.productos.insert({"CITNAME":"MSI NVIDIA GEFORCE GTX 950",
+"NPRECIO": 750.00,
+"CMODELO": "G950",
+"CMARCA" : "MSI",
+"NSTOCK" : 5,
+"CIDPROV": "0001783",
+"CIMGURL":"https://tpucdn.com/reviews/MSI/GTX_950_Gaming/images/pressshot.jpg",
+"CDESCOR": "GeForce GTX 950: una auténtica GPU de gaming pensada para todos los PCs. Convierte tu PC en una máquina de gaming capaz de superar a cualquier consola para que puedas disfrutar de juegos clásicos y modernos a 1080p y 60 FPS. Está basada en la arquitectura NVIDIA Maxwell™ y proporciona 3 veces más rendimiento que las tarjetas de la generación anterior*.", 
+"CDESCAT": [{"CIDCATE":"C1","CNOMCAT":"Tarjetas de video"}]
+});
+
+
+
+db.productos.insert( {"CITNAME":"MSI Z97 GAMING 3",
+"NPRECIO": 469.00,
+"CMODELO": "Z97",
+"CMARCA" : "MSI",
+"NSTOCK" : 3,
+"CIDPROV": "0001783",
+"CIMGURL": "https://www.msi.com/asset/resize/image/global/product/five_pictures1_3143_20140410181049.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+"CDESCOR": "Supports 4th and 5th Gen Intel® Core™ / Pentium® / Celeron® processors for LGA 1150 socket Supports DDR3-3300(OC) Memory M.2 + USB 3.0 + SATA 6Gb/s Audio Boost 2: Reward Your Ears with True Quality Killer Ethernet: Kill Your Lag USB Audio Power: Serve Stable 5V Power & Better Signal Transmission over USB XSplit Gamecaster: Show off Your Skills and Achievements Guard-Pro: Improved Protection and Power Efficiency OC Genie 4: Overclock in 1 Second Gaming App: Boost Your Frame Rate Click ",
+"CDESCAT": [{"CIDCATE":"C2","CNOMCAT":"Motherboards"}]
+});
+
+
+db.productos.insert({"CITNAME":"AMD Ryzen 7 1800X",
+"NPRECIO": 1464.00,
+"CMODELO": "1800X",
+"CMARCA" : "AMD",
+"NSTOCK" : 3,
+"CIDPROV": "0001783",
+"CIMGURL": "https://images-na.ssl-images-amazon.com/images/I/41LHL3NkWXL.jpg",
+"CDESCOR": "Ryzen Pro para computadoras de escritorio comerciales, a partir del segundo semestre de 2017 Ryzen Pro para computadoras portátiles comerciales, a partir del primer semestre de 2018.",
+"CDESCAT": [{"CIDCATE":"C3","CNOMCAT":"Procesadores"}]
+});
+
+db.productos.insert({"CITNAME":"Razer Naga",
+"NPRECIO": 1350.00,
+"CMODELO": "RN1",
+"CMARCA" : "AMD",
+"NSTOCK" : 3,
+"CIDPROV": "0001783",
+"CIMGURL": "https://assets.razerzone.com/eeimages/products/13785/razer-naga-2014-right-03.png",
+"CDESCOR": "MECHANICAL 12 BUTTON THUMB GRID",
+"CDESCAT": [{"CIDCATE":"C4","CNOMCAT":"Accesorios"}]
+});
+
+
+
+Tienes que hacer un combobox con las siguientes categorias 
+"C1";"Tarjetas de video"
+"C2";"Motherboards"
+"C3";"Procesadores"
+"C4";"Accesorios"
