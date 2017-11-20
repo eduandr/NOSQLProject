@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_search"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.allandroidprojects.ecomsample.options.SearchResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp">
+
+
+            <TableRow
+                android:id="@+id/tablerow"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/text_resultado"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:textAlignment="center"
+                    android:gravity="top"
+                    android:textSize="14dp"
+                    android:text="Resultados de la búsqueda"
+                    />
+            </TableRow>
+
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollView1"
+                android:fillViewport="true" >
+
+                <TableLayout
+                    android:id = "@+id/tlayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    >
+
+                </TableLayout>
+            </ScrollView>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GameStore</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Menu item texts -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Busqueda</string>
+    <string name="action_cart">Carro</string>
+    <string name="action_notifications">Notificaciones</string>
+
+    <string name="item_1">Últimos Productos</string>
+    <string name="item_2">Tarjetas de video</string>
+    <string name="item_3">MotherBoards</string>
+    <string name="item_4">CPU</string>
+    <string name="item_5">Accesorios</string>
+    <string name="item_6">Más</string>
+
+    <string name="my_profile">Perfil</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="my_orders">Mis órdenes</string>
+    <string name="my_cart">Mi carrito</string>
+    <string name="my_wishlist">Mi lista de deseados</string>
+    <string name="my_account">Mi cuenta</string>
+
+    <string name="help_support">Ayuda \u0026 Soporte</string>
+    <string name="contact_us">Contacto</string>
+    <string name="terms_conditions">Términos \u0026 Condiciones</string>
+    <string name="help_center">Centro de ayuda</string>
+
+    <string name="search_hint">Buscar productos y más</string>
+
+
+    <!--Intro slider texts -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="skip">SALTAR</string>
+    <string name="start">LO TENGO!</string>
+
+    <string name="slide_1_title">Tarjetas de video</string>
+    <string name="slide_1_desc">Lo último en tarjetas de vídeo!
+    </string>
+
+    <string name="slide_2_title">Motherboards</string>
+    <string name="slide_2_desc">Tenemos las mejores placas madre del mercado!</string>
+
+    <string name="slide_3_title">CPU</string>
+    <string name="slide_3_desc">Tenemos una gran variedad de procesadores con la opción de overclock!</string>
+
+    <string name="slide_4_title">Accesorios Gamer</string>
+    <string name="slide_4_desc">Tenemos una gran variedad de accesorios para que seas un verdadero gamer!</string>
+
+    <string name="play_again_desc">Para ver la presentación de nuevo tienes que ir a Ajustes -> Aplicaciones -> welcome
+        slider -> clear data
+    </string>
+    <string name="play_again">Play Again</string>
+    <string name="nombreTienda">GameStore</string>
+    <string name="purchase">compra</string>
+    <string name="valid">valido</string>
+    <string name="invalid">invalido</string>
+    <string name="scan_with_card_io">aaa</string>
+
+</resources>
